@@ -475,8 +475,8 @@
 				value.bind( function(to) {
 					var cssCode = ''
 					if( to ) {
-						cssCode += "body article:not(.newsis-category-no-bk) .post-categories .cat-item.cat-" + item.term_id + " a { background : " + helperFunctions.getFormatedColor( to ) + " } "
-						cssCode += "body .newsis-category-no-bk .post-categories .cat-item.cat-" + item.term_id + " a { color : " + helperFunctions.getFormatedColor( to ) + " } "
+						cssCode += "body article:not(.newsmatic-category-no-bk) .post-categories .cat-item.cat-" + item.term_id + " a { background : " + helperFunctions.getFormatedColor( to ) + " } "
+						cssCode += "body .newsmatic-category-no-bk .post-categories .cat-item.cat-" + item.term_id + " a { color : " + helperFunctions.getFormatedColor( to ) + " } "
 					}
 					themeCalls.newsmaticGenerateStyleTag( cssCode, 'newsmatic-category-' + item.term_id + '-style' )
 				})

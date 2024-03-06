@@ -123,9 +123,9 @@ if( !class_exists( 'Newsmatic_Theme_Info' ) ) :
                         </p>
                     </div>
                     <div class="info-block">
-                        <a href="<?php echo esc_url( '//demo.blazethemes.com/newsmatic-one/' ); ?>" target="_blank" class="dashicons dashicons-desktop info-icon"></a>
+                        <a href="<?php echo esc_url( '//preview.blazethemes.com/newsmatic-one/' ); ?>" target="_blank" class="dashicons dashicons-desktop info-icon"></a>
                         <p class="info-text">
-                            <a href="<?php echo esc_url( '//demo.blazethemes.com/newsmatic-one/' ); ?>" target="_blank"><?php esc_html_e('Theme demo','newsmatic'); ?></a>
+                            <a href="<?php echo esc_url( '//preview.blazethemes.com/newsmatic-one/' ); ?>" target="_blank"><?php esc_html_e('Theme demo','newsmatic'); ?></a>
                         </p>
                     </div>
                     <div class="info-block">
